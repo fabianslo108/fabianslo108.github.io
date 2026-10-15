@@ -219,7 +219,7 @@ const fullPublications = getAllPublications();
 const projects = [
   {
     title: "Beauty and Academic Job Market",
-    description: "We develop a new method to measure physical attractiveness using deep vision models. We show that the physical attractiveness is strongly associated with the length and sentiment of reference letters.",
+    description: "We develop a new method to measure physical attractiveness using deep vision models. We show that good looks are strongly associated with the length and sentiment of reference letters.",
     isSelected: true,
     demoPath: "photos/project-demo/beauty_job_market.png"
   }
