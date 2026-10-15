@@ -222,7 +222,13 @@ const projects = [
     description: "We develop a new method to measure physical attractiveness using deep vision models. We show that good looks are strongly associated with the length and sentiment of reference letters.",
     isSelected: true,
     demoPath: "photos/project-demo/beauty_job_market.png"
-  }
+  },
+  {
+    title: "Measuring Product Quality Using Images",
+    description: "We propose a novel approach to measure product quality using images and deep learning techniques (specifically CLIP).",
+    isSelected: true,
+    demoPath: "photos/project-demo/choropleth_clip.jpg"
+  }  
 ];
 
 // Helper functions to filter projects
