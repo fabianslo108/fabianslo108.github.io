@@ -5,6 +5,7 @@ const publications = [
   {
     title: "Democratizing Access to Higher Education in Russia: The Consequences of the Unified State Exam Reform",
     authors: "Marco Francesconi, <b>Fabian Slonimczyk</b>, Anna Yurko",
+    venue: "European Economic Review, 117, 56-82 (2019)",
     links: [
       { text: "Paper", url: "https://doi.org/10.1016/j.euroecorev.2019.04.007" },
       //{ text: "Code", url: "https://github.com/Arvid-pku/Godel_Agent" }
@@ -26,6 +27,7 @@ const publications = [
   {
     title: "Assessing the Impact of the Maternity Capital Policy in Russia",
     authors: "<b>Fabian Slonimczyk</b>, Anna Yurko",
+    venue: "Labour Economics, 30, 265-281 (2014)",
     links: [
       { text: "Paper", url: "https://doi.org/10.1016/j.labeco.2014.03.004" },
       //{ text: "Code", url: "https://github.com/Arvid-pku/Godel_Agent" }
