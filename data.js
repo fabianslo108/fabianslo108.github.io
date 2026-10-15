@@ -6,7 +6,7 @@ const publications = [
     title: "Democratizing Access to Higher Education in Russia: The Consequences of the Unified State Exam Reform",
     authors: "Marco Francesconi, <b>Fabian Slonimczyk</b>, Anna Yurko",
     links: [
-      { text: "Paper", url: "https://www.sciencedirect.com/science/article/abs/pii/S0014292119300698" },
+      { text: "Paper", url: "https://doi.org/10.1016/j.euroecorev.2019.04.007" },
       //{ text: "Code", url: "https://github.com/Arvid-pku/Godel_Agent" }
     ],
     abstract: "This is the first paper that evaluates the effects of a reform requiring Russian universities to make admission decisions based on the results of a national high-school exam. We show the reform led to a threefold increase in geographic mobility rates among high-school graduates from small cities and towns to start college. This is robust to different techniques, samples, and specifications. The reform was also accompanied by increases in students’ expectations to attend university, parental transfers, and educational expenditures. There is no evidence the reform affected parental labor supply, divorce, and employment outcomes of graduates who did not move.",
@@ -17,9 +17,9 @@ const publications = [
     volume = {117},
     pages  = {56--82},
     year   = {2019},
-    url    = {https://www.sciencedirect.com/science/article/abs/pii/S0014292119300698}
+    url    = {https://doi.org/10.1016/j.euroecorev.2019.04.007}
 }</code></pre>`,
-    isNew: true,
+    isNew: false,
     isPreprint: false,
     isSelected: true
   },
@@ -27,7 +27,7 @@ const publications = [
     title: "Assessing the Impact of the Maternity Capital Policy in Russia",
     authors: "<b>Fabian Slonimczyk</b>, Anna Yurko",
     links: [
-      { text: "Paper", url: "https://www.sciencedirect.com/science/article/abs/pii/S0927537114000232" },
+      { text: "Paper", url: "https://doi.org/10.1016/j.labeco.2014.03.004" },
       //{ text: "Code", url: "https://github.com/Arvid-pku/Godel_Agent" }
     ],
     abstract: "With declining population and fertility rates below replacement levels, Russia is currently facing a demographic crisis. Starting in 2007, the federal government has pursued an ambitious pro-natalist policy. Women who give birth to at least two children are entitled to “maternity capital” assistance ($11,000). In this paper we estimate a structural dynamic programming model of fertility and labor force participation in order to evaluate the effectiveness of the policy. We find that the program increased long-run fertility by about 0.15 children per woman.",
@@ -40,7 +40,7 @@ const publications = [
     year   = {2014},
     url    = {https://doi.org/10.1016/j.labeco.2014.03.004}
 }</code></pre>`,
-    isNew: true,
+    isNew: false,
     isPreprint: false,
     isSelected: true
   }
