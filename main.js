@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Other sections (used on homepage or other pages if present)
-  populateProjects(false);
+  populateProjects(true);
   populateResearchExperience();
   populateAcademicServices();
   populateTeaching();
@@ -183,7 +183,7 @@ function populateProjects(showAllBadges) {
     const badgeHtml = badges.map(badge =>
       `<a href="${badge.url}" target="_blank" rel="noopener"><img alt="stars" src="${badge.img}" loading="lazy" style="vertical-align:middle;" /></a>`
     ).join(' ');
-    li.innerHTML = `<strong>${project.title}</strong> ${badgeHtml}<br>${project.description}`;
+    li.innerHTML = `<strong>${project.title}</strong> <br>${project.description}`;
     list.appendChild(li);
   });
 }
