@@ -21,7 +21,7 @@ const publications = [
 }</code></pre>`,
     isNew: false,
     isPreprint: false,
-    isSelected: true
+    isSelected: false,
   },
   {
     title: "Assessing the Impact of the Maternity Capital Policy in Russia",
@@ -42,7 +42,7 @@ const publications = [
 }</code></pre>`,
     isNew: false,
     isPreprint: false,
-    isSelected: true
+    isSelected: false,
   }
 
 ];
