@@ -13,7 +13,7 @@ A checklist for the first-time customization. See [README.md](README.md) for con
 
 - [ ] Replace the sample publication with your own
 - [ ] Replace the sample project with your own (set `demoPath` to a real image)
-- [ ] Update `researchExperience`, `teaching`, `academicServices`, `talks`, `honors`
+- [x] Update `researchExperience`, `teaching`, `academicServices`, `talks`, `honors`
 - [ ] Mark featured items with `isSelected: true` so they show on the homepage and CV
 
 ## 3. Blog (`blog-data.js`, `blogs/`)
