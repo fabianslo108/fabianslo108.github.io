@@ -171,19 +171,26 @@ function populatePublications(publications, listId) {
 /**
  * Populate projects (only selected ones for homepage)
  */
-function populateProjects(showAllBadges) {
+function populateProjects(showAllBadges = false) {
   const list = document.getElementById('projects-list');
   if (!list) return;
 
   getSelectedProjects().forEach(project => {
     const li = document.createElement('li');
+
+    // Guard against missing or non-array badges to avoid runtime errors
+    const badgesList = Array.isArray(project.badges) ? project.badges : [];
     const badges = showAllBadges
-      ? project.badges
-      : project.badges.filter(b => b.img.includes('/github/stars/'));
+      ? badgesList
+      : badgesList.filter(b => typeof b.img === 'string' && b.img.includes('/github/stars/'));
+
     const badgeHtml = badges.map(badge =>
       `<a href="${badge.url}" target="_blank" rel="noopener"><img alt="stars" src="${badge.img}" loading="lazy" style="vertical-align:middle;" /></a>`
     ).join(' ');
-    li.innerHTML = `<strong>${project.title}</strong> <br>${project.description}`;
+
+    const demoHtml = project.demoPath ? `<br><img src="${project.demoPath}" alt="${project.title} demo" loading="lazy" style="max-width:320px;display:block;margin-top:8px;" />` : '';
+
+    li.innerHTML = `<strong>${project.title}</strong> <br>${project.description}${demoHtml}${badgeHtml ? '<br>' + badgeHtml : ''}`;
     list.appendChild(li);
   });
 }
