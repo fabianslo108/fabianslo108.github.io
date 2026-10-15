@@ -86,6 +86,119 @@ const publications = [
     isNew: false,
     isPreprint: false,
     isSelected: false,
+  },
+  {
+    title: "Informality and Mobility: Evidence from Russian Panel Data",
+    authors: "<b>Fabian Slonimczyk</b>, Vladimir Gimpelson",
+    venue: "Economics of Transition, 23:2, 299-341 (2015)",
+    links: [
+      { text: "Paper", url: "https://doi.org/10.1111/ecot.12064" },
+      //{ text: "Code", url: "https://github.com/Arvid-pku/Godel_Agent" }
+    ],
+    abstract: "Informality is a defining characteristic of labour markets in developing and transition countries. This paper analyzes patterns of mobility across different forms of formal and informal employment in Russia. Using the Russian Longitudinal Monitoring Survey household panel we estimate a dynamic multinomial logit model with individual heterogeneity and correct for the initial conditions problem. Simulations show that structural state dependence is weak and that transition rates from informal to formal employment are not lower than from non-employment. These results lend support to the integrated view of the labour market.",
+    citation: `<pre><code>@article{slonimczyk-gimpelson-2015-informality,
+    title  = {Informality and Mobility: Evidence from Russian Panel Data},
+    author = {Fabian Slonimczyk and Vladimir Gimpelson},
+    journal = {Economics of Transition},
+    volume = {23},
+    number = {2},
+    pages  = {299--341},
+    year   = {2015},
+    url    = {https://doi.org/10.1111/ecot.12064}
+}</code></pre>`,
+    isNew: false,
+    isPreprint: false,
+    isSelected: false,
+  },
+  {
+    title: "Informal Employment in Emerging and Transition Economies",
+    authors: "<b>Fabian Slonimczyk</b>",
+    venue: "IZA World of Labor, 59.v2, 2014/22",
+    links: [
+      { text: "Paper", url: "https://wol.iza.org/articles/informal-employment-in-emerging-and-transition-economies/long" },
+      //{ text: "Code", url: "https://github.com/Arvid-pku/Godel_Agent" }
+    ],
+    abstract: "In developing and transition economies as much as half the labor force works in the informal sector (or “shadow economy”). Informal firms congest infrastructure and other public services but do not contribute the taxes needed to finance them. Informal workers are unprotected against such negative shocks as ill-health, but for certain groups there can be scarce opportunities to enter the formal sector. Reducing informality requires better enforcement, more reasonable regulation, and economic growth.",
+    citation: `<pre><code>@article{slonimczyk-2014-informal-employment,
+    title  = {Informal Employment in Emerging and Transition Economies},
+    author = {Fabian Slonimczyk},
+    journal = {IZA World of Labor},
+    volume = {59},
+    number = {v2},
+    year   = {2014/22},
+    url    = {https://wol.iza.org/articles/informal-employment-in-emerging-and-transition-economies/long}
+}</code></pre>`,
+    isNew: false,
+    isPreprint: false,
+    isSelected: false,
+  },
+  {
+    title: "The Effect of Taxation on Informal Employment: Evidence from the Russian Flat Tax Reform",
+    authors: "<b>Fabian Slonimczyk</b>",
+    venue: "Research in Labor Economics, 34, 2012",
+    links: [
+      { text: "Paper", url: "https://doi.org/10.1108/S0147-9121(2012)0000034005" },
+      //{ text: "Code", url: "https://github.com/Arvid-pku/Godel_Agent" }
+    ],
+    abstract: "The 2001 Russian tax reform reduced average tax rates for the personal income tax and the payroll or social tax. It also made the tax structure more regressive. Because individuals in the lower income bracket were for the most part not affected, it is possible to estimate the effects of the reform using a differences-in-differences approach. I study the effect of the reform on informal employment. Informality is defined using information on employment registration and self-employment. Applying parametric and semi-parametric techniques, I find evidence that the tax reform led to a significant reduction in the fraction of informal employees. Among the different forms of informality I study, the reform seems to have had the strongest effect on the prevalence of informal irregular activities. I also document stronger effects on individuals who benefited from the largest reductions in tax rates. The strong response to the tax reform is consistent with the emerging consensus in the literature on taxation that changes to the tax system lead to significant behavioral responses, although not necessarily in the form of a reduced labor supply.",
+    citation: `<pre><code>@incollection{slonimczyk-2012-tax,
+    title  = {The Effect of Taxation on Informal Employment: Evidence from the Russian Flat Tax Reform},
+    author = {Fabian Slonimczyk},
+    booktitle = {Research in Labor Economics},
+    editor = {Lehmann, Hartmut and Tatsiramos, Konstantinos},
+    volume = {34},
+    chapter = {2},
+    year   = {2012},
+    url    = {https://doi.org/10.1108/S0147-9121(2012)0000034005}
+}</code></pre>`,
+    isNew: false,
+    isPreprint: false,
+    isSelected: false,
+  },
+  {
+    title: "Employment and Distribution Effects of the Minimum Wage",
+    authors: "<b>Fabian Slonimczyk</b> and Peter Skott",
+    venue: "Journal of Economic Behavior & Organization, 84:1, 55-99 (2012)",
+    links: [
+      { text: "Paper", url: "https://doi.org/10.1016/j.jebo.2012.03.005" },
+      //{ text: "Code", url: "https://github.com/Arvid-pku/Godel_Agent" }
+    ],
+    abstract: "This paper analyzes the effects of the minimum wage on wage inequality, relative employment and over-education. We show that over-education can be generated endogenously and that an increase in the minimum wage can raise both total and low-skill employment, and produce a fall in inequality. Evidence from the US suggests that these theoretical results are empirically relevant. The over-education rate has been increasing and our regression analysis suggests that the decrease in the minimum wage may have led to a deterioration of the employment and relative wage of low-skill workers.",
+    citation: `<pre><code>@article{slonimczyk-skott-2012-minwage,
+    title  = {Employment and Distribution Effects of the Minimum Wage},
+    author = {Fabian Slonimczyk and Peter Skott},
+    journal = {Journal of Economic Behavior & Organization},
+    volume = {84},
+    number = {1},
+    pages  = {55--99},
+    year   = {2012},
+    url    = {}
+}</code></pre>`,
+    isNew: false,
+    isPreprint: false,
+    isSelected: false,
+  },
+  {
+    title: "Earnings Inequality and Skill Mismatch in the U.S.: 1973-2002",
+    authors: "<b>Fabian Slonimczyk</b>",
+    venue: "Journal of Economic Inequality, 11, 163-194 (2013)",
+    links: [
+      { text: "Paper", url: "https://doi.org/10.1007/s10888-011-9212-1" },
+      //{ text: "Code", url: "https://github.com/Arvid-pku/Godel_Agent" }
+    ],
+    abstract: "This paper shows that skill mismatch is a significant source of inequality in real earnings in the U.S. and that a substantial fraction of the increase in wage dispersion during the period 1973–2002 was due to the increase in mismatch rates and mismatch premia. In 2000–2002, surplus and deficit qualifications taken together accounted for 4.3 and 4.6% of the variance of log earnings, or around 15% of the total explained variance. The dramatic increase in over-education rates and premia accounts for around 20 and 48% of the increase in the Gini coefficient during the 30 years under analysis for males and females respectively. The surplus qualification factor is important in understanding why earnings inequality polarized in the last decades.",
+    citation: `<pre><code>@article{slonimczyk-2013-mismatch,
+    title  = {Earnings Inequality and Skill Mismatch in the U.S.: 1973--2002},
+    author = {Fabian Slonimczyk},
+    journal = {Journal of Economic Inequality},
+    volume = {11},
+    pages  = {163--194},
+    year   = {2013},
+    url    = {https://doi.org/10.1007/s10888-011-9212-1}
+}</code></pre>`,
+    isNew: false,
+    isPreprint: false,
+    isSelected: false,
   }
 
 ];
