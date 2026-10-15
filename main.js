@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Other sections (used on homepage or other pages if present)
-  populateProjects(true);
+  populateProjects(false);
   populateResearchExperience();
   populateAcademicServices();
   populateTeaching();
