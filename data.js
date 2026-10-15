@@ -233,7 +233,7 @@ const projects = [
     title: "Differential Treatment of Families with Children in the Moscow Housing Market",
     description: "We conduct a correspondence study in the Moscow housing market to examine differential treatment of families with children.",
     isSelected: true,
-    demoPath: ""
+    demoPath: "photos/project-demo/diff_treatment.png"
   },  
 ];
 
