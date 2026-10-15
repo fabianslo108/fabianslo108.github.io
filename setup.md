@@ -24,27 +24,27 @@ A checklist for the first-time customization. See [README.md](README.md) for con
 
 ## 4. Photography
 
-- [ ] Drop your photos into `photos/`
-- [ ] Edit the `<div class="photo-item">` blocks in `photography.html`
-- [ ] Or remove the Photography nav entry in `site-shell.js` if you don't want it
+- [x] Drop your photos into `photos/`
+- [x] Edit the `<div class="photo-item">` blocks in `photography.html`
+- [x] Or remove the Photography nav entry in `site-shell.js` if you don't want it
 
 ## 5. Assets
 
-- [ ] `figures/me.jpg` — your profile photo (square, ~400×400 looks great)
+- [x] `figures/me.jpg` — your profile photo (square, ~400×400 looks great)
 - [ ] `figures/logo.png` — favicon
-- [ ] `files/CV.pdf` — your CV
+- [x] `files/CV.pdf` — your CV
 - [ ] `photos/project-demo/*.png` — one image per project, referenced via `demoPath`
 
 ## 6. SEO
 
-- [ ] `sitemap.xml` — replace `yourwebsite.com`
-- [ ] `robots.txt` — replace the sitemap URL
+- [x] `sitemap.xml` — replace `yourwebsite.com`
+- [x] `robots.txt` — replace the sitemap URL
 - [ ] Confirm `og:url`, `og:image`, and JSON-LD `url` use your real domain
 
 ## 7. Deploy
 
-- [ ] Repo is named `yourusername.github.io`
-- [ ] GitHub Pages enabled (Settings → Pages → Source: Deploy from branch → `main`)
+- [x] Repo is named `yourusername.github.io`
+- [x] GitHub Pages enabled (Settings → Pages → Source: Deploy from branch → `main`)
 - [ ] Visit `https://yourusername.github.io` and verify
   - Profile + photo render
   - Nav toggles dark mode

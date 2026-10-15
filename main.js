@@ -200,7 +200,6 @@ function populateResearchExperience() {
     li.innerHTML = `
       <p>
         <strong>${exp.period},   ${exp.institution}</strong><br>
-        Mentor: ${exp.mentor}<br>
         ${exp.description}
       </p>
     `;
