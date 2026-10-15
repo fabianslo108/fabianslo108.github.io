@@ -6,14 +6,14 @@
 
 const blogPosts = [
   {
-    id: "sample-post",
-    title: "Sample Blog Post",
-    date: "2025-01-01",
-    author: "Your Name",
-    excerpt: "A short, one-sentence excerpt that previews this post on the blogs page.",
+    id: "tba",
+    title: "TBA",
+    date: "2026",
+    author: "Fabian Slonimczyk",
+    excerpt: "Soon...",
     tags: ["Topic", "Sample"],
     readTime: 3,
-    markdownFile: "blogs/sample-post.md",
+    markdownFile: "blogs/TBA.md",
     content: null,      // Will be loaded from the markdown file
     htmlContent: null   // Will be generated from the markdown
   }
