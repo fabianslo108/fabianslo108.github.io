@@ -87,8 +87,24 @@ const researchExperience = [
   {
     period: "September 2015 - Present",
     institution: "ICEF, National Research University Higher School of Economics",
-    description: "Associate Professor (tenured)"
-  }
+    description: "Associate Professor (tenured)",
+  },
+  {
+    period: "September 2009 - August 2015",
+    institution: "ICEF, National Research University Higher School of Economics",
+    description: "Assistant Professor",
+  },
+  {
+    period: "Spring 2016",
+    institution: "INSEAD, Fontainebleau, France",
+    description: "Visiting Professor",
+  },
+  {
+    period: "2013 - Present",
+    institution: "Institute for the Study of Labor (IZA), Bonn, Germany",
+    description: "Research Fellow",
+  },
+
 ];
 
 // Teaching Data - Replace with your own teaching experience
