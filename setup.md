@@ -5,9 +5,9 @@ A checklist for the first-time customization. See [README.md](README.md) for con
 ## 1. Identity
 
 - [X] `index.html` — replace name, pronunciation, bio, news items, contact links
-- [ ] `cv.html` — update education entries and the contact bar
+- [x] `cv.html` — update education entries and the contact bar
 - [x] `site-shell.js` — `FOOTER_SOCIALS` (your social URLs) and `getFooterCopy()` (your copyright name)
-- [ ] All HTML files — `<title>`, `<meta>`, Open Graph, Twitter Card, JSON-LD (in `index.html`)
+- [x] All HTML files — `<title>`, `<meta>`, Open Graph, Twitter Card, JSON-LD (in `index.html`)
 
 ## 2. Content (`data.js`)
 
