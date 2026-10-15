@@ -166,11 +166,11 @@ const academicServices = [
 // Talks Data - Replace with your own talks
 const talks = [
   {
-    title: "Your Talk Title",
-    venue: "Venue Name",
-    date: "Mon DD, YYYY",
+    title: "Good Looks and the Academic Job Market",
+    venue: "ICEF Conference on Applied Economics",
+    date: "Oct 16, 2026",
     attachments: [
-      { text: "Slides", url: "files/your-talk/slides.pdf" }
+      { text: "Slides", url: "files/presentation_Good_Looks_Slonimczyk_Kimsanbaev_v0.pdf" }
     ]
   }
 ];
