@@ -226,7 +226,7 @@ const projects = [
   {
     title: "Measuring Product Quality Using Images",
     description: "We propose a novel approach to measure product quality using images and deep learning techniques (specifically CLIP).",
-    isSelected: true,
+    isSelected: false,
     demoPath: "photos/project-demo/choropleth_clip.jpg"
   },
   {
