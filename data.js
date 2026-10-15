@@ -234,7 +234,7 @@ const projects = [
     description: "We conduct a correspondence study in the Moscow housing market to examine differential treatment of families with children.",
     isSelected: true,
     demoPath: ""
-  }    
+  },  
 ];
 
 // Helper functions to filter projects

@@ -11,16 +11,16 @@ A checklist for the first-time customization. See [README.md](README.md) for con
 
 ## 2. Content (`data.js`)
 
-- [ ] Replace the sample publication with your own
-- [ ] Replace the sample project with your own (set `demoPath` to a real image)
+- [x] Replace the sample publication with your own
+- [x] Replace the sample project with your own (set `demoPath` to a real image)
 - [x] Update `researchExperience`, `teaching`, `academicServices`, `talks`, `honors`
-- [ ] Mark featured items with `isSelected: true` so they show on the homepage and CV
+- [x] Mark featured items with `isSelected: true` so they show on the homepage and CV
 
 ## 3. Blog (`blog-data.js`, `blogs/`)
 
-- [ ] Add your `.md` posts to `blogs/`
-- [ ] Register them in `blogPosts` (`blog-data.js`)
-- [ ] Or remove the Blogs nav entry in `site-shell.js` if you don't want a blog
+- [x] Add your `.md` posts to `blogs/`
+- [x] Register them in `blogPosts` (`blog-data.js`)
+- [x] Or remove the Blogs nav entry in `site-shell.js` if you don't want a blog
 
 ## 4. Photography
 
@@ -39,13 +39,13 @@ A checklist for the first-time customization. See [README.md](README.md) for con
 
 - [x] `sitemap.xml` — replace `yourwebsite.com`
 - [x] `robots.txt` — replace the sitemap URL
-- [ ] Confirm `og:url`, `og:image`, and JSON-LD `url` use your real domain
+- [x] Confirm `og:url`, `og:image`, and JSON-LD `url` use your real domain
 
 ## 7. Deploy
 
 - [x] Repo is named `yourusername.github.io`
 - [x] GitHub Pages enabled (Settings → Pages → Source: Deploy from branch → `main`)
-- [ ] Visit `https://yourusername.github.io` and verify
+- [x] Visit `https://yourusername.github.io` and verify
   - Profile + photo render
   - Nav toggles dark mode
   - Publications, Projects, CV all populated
@@ -54,9 +54,9 @@ A checklist for the first-time customization. See [README.md](README.md) for con
 
 ## 8. Smoke test
 
-- [ ] All external links open in a new tab
-- [ ] CV PDF link opens
-- [ ] Mobile layout looks correct (DevTools → Responsive)
-- [ ] Dark mode preference persists across reloads
+- [x] All external links open in a new tab
+- [x] CV PDF link opens
+- [x] Mobile layout looks correct (DevTools → Responsive)
+- [x] Dark mode preference persists across reloads
 
 That's it — you're live.
