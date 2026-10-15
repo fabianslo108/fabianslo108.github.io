@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Other sections (used on homepage or other pages if present)
-  populateProjects(false);
+  populateProjects(false, !document.querySelector('.about-page'));
   populateResearchExperience();
   populateAcademicServices();
   populateTeaching();
@@ -171,7 +171,7 @@ function populatePublications(publications, listId) {
 /**
  * Populate projects (only selected ones for homepage)
  */
-function populateProjects(showAllBadges = false) {
+function populateProjects(showAllBadges = false, includeImages = true) {
   const list = document.getElementById('projects-list');
   if (!list) return;
 
@@ -184,11 +184,11 @@ function populateProjects(showAllBadges = false) {
       ? badgesList
       : badgesList.filter(b => typeof b.img === 'string' && b.img.includes('/github/stars/'));
 
-    const badgeHtml = badges.map(badge =>
+    const badgeHtml = includeImages ? badges.map(badge =>
       `<a href="${badge.url}" target="_blank" rel="noopener"><img alt="stars" src="${badge.img}" loading="lazy" style="vertical-align:middle;" /></a>`
-    ).join(' ');
+    ).join(' ') : '';
 
-    const demoHtml = project.demoPath ? `<br><img src="${project.demoPath}" alt="${project.title} demo" loading="lazy" style="max-width:320px;display:block;margin-top:8px;" />` : '';
+    const demoHtml = includeImages && project.demoPath ? `<br><img src="${project.demoPath}" alt="${project.title} demo" loading="lazy" style="max-width:320px;display:block;margin-top:8px;" />` : '';
 
     li.innerHTML = `<strong>${project.title}</strong> <br>${project.description}${demoHtml}${badgeHtml ? '<br>' + badgeHtml : ''}`;
     list.appendChild(li);
