@@ -3,25 +3,48 @@
 // Use isSelected: true to feature it on the homepage and CV.
 const publications = [
   {
-    title: "Gödel Agent: A Self-Referential Agent Framework for Recursive Self-Improvement",
-    authors: "<b>Your Name</b>, Co-Author One, Co-Author Two",
-    venue: "ACL 2025",
+    title: "Democratizing Access to Higher Education in Russia: The Consequences of the Unified State Exam Reform",
+    authors: "Marco Francesconi, <b>Fabian Slonimczyk</b>, Anna Yurko",
     links: [
-      { text: "Paper", url: "https://aclanthology.org/2025.acl-long.1354/" },
-      { text: "Code", url: "https://github.com/Arvid-pku/Godel_Agent" }
+      { text: "Paper", url: "https://www.sciencedirect.com/science/article/abs/pii/S0014292119300698" },
+      //{ text: "Code", url: "https://github.com/Arvid-pku/Godel_Agent" }
     ],
-    abstract: "The rapid advancement of large language models (LLMs) has significantly enhanced the capabilities of AI-driven agents across various tasks. However, existing agentic systems, whether based on fixed pipeline algorithms or pre-defined meta-learning frameworks, cannot search the whole agent design space due to the restriction of human-designed components, and thus might miss the globally optimal agent design. We introduce Gödel Agent, a self-evolving framework inspired by the Gödel machine, enabling agents to recursively improve themselves without relying on predefined routines or fixed optimization algorithms.",
-    citation: `<pre><code>@inproceedings{yin-etal-2025-godel,
-    title  = {G{\\"o}del Agent: A Self-Referential Agent Framework for Recursively Self-Improvement},
-    author = {Your Name and Co-Author One and Co-Author Two},
-    booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
-    year   = {2025},
-    url    = {https://aclanthology.org/2025.acl-long.1354/}
+    abstract: "This is the first paper that evaluates the effects of a reform requiring Russian universities to make admission decisions based on the results of a national high-school exam. We show the reform led to a threefold increase in geographic mobility rates among high-school graduates from small cities and towns to start college. This is robust to different techniques, samples, and specifications. The reform was also accompanied by increases in students’ expectations to attend university, parental transfers, and educational expenditures. There is no evidence the reform affected parental labor supply, divorce, and employment outcomes of graduates who did not move.",
+    citation: `<pre><code>@article{francesconi-etal-2019-democratizing,
+    title  = {Democratizing Access to Higher Education in Russia: The Consequences of the Unified State Exam Reform},
+    author = {Marco Francesconi and Fabian Slonimczyk and Anna Yurko},
+    journal = {European Economic Review},
+    volume = {117},
+    pages  = {56--82},
+    year   = {2019},
+    url    = {https://www.sciencedirect.com/science/article/abs/pii/S0014292119300698}
+}</code></pre>`,
+    isNew: true,
+    isPreprint: false,
+    isSelected: true
+  },
+  {
+    title: "Assessing the Impact of the Maternity Capital Policy in Russia",
+    authors: "<b>Fabian Slonimczyk</b>, Anna Yurko",
+    links: [
+      { text: "Paper", url: "https://www.sciencedirect.com/science/article/abs/pii/S0927537114000232" },
+      //{ text: "Code", url: "https://github.com/Arvid-pku/Godel_Agent" }
+    ],
+    abstract: "With declining population and fertility rates below replacement levels, Russia is currently facing a demographic crisis. Starting in 2007, the federal government has pursued an ambitious pro-natalist policy. Women who give birth to at least two children are entitled to “maternity capital” assistance ($11,000). In this paper we estimate a structural dynamic programming model of fertility and labor force participation in order to evaluate the effectiveness of the policy. We find that the program increased long-run fertility by about 0.15 children per woman.",
+    citation: `<pre><code>@article{slonimczyk-yurko-2014-maternity,
+    title  = {Assessing the Impact of the Maternity Capital Policy in Russia},
+    author = {Fabian Slonimczyk and Anna Yurko},
+    journal = {Labour Economics},
+    volume = {30},
+    pages  = {265--281},
+    year   = {2014},
+    url    = {https://doi.org/10.1016/j.labeco.2014.03.004}
 }</code></pre>`,
     isNew: true,
     isPreprint: false,
     isSelected: true
   }
+
 ];
 
 // Helper functions to filter publications
