@@ -85,22 +85,25 @@ const getAllProjects = () => projects;
 // Research Experience Data - Replace with your own experience
 const researchExperience = [
   {
-    period: "Month YYYY - Month YYYY",
-    institution: "Your Institution Name",
-    mentor: "Prof. Mentor Name",
-    description: "Brief description of your research work and achievements."
+    period: "September 2015 - Present",
+    institution: "ICEF, National Research University Higher School of Economics",
+    description: "Associate Professor (tenured)"
   }
 ];
 
 // Teaching Data - Replace with your own teaching experience
 const teaching = [
-  "Teaching Assistant, Institution, Course Name, Semester YYYY, with Prof. Name"
+  "ICEF MSc Economics & Finance, Advanced Econometrics (2010-Present)",
+  "ICEF MSc Economics & Finance, Big Data and Machine Learning for Economics and Finance (2019-Present)",  
+  "ICEF BSc, Applied Economics (2014-2018)",
+  "Econ BSc, Labor Economics (2012-2013)",  
+  "Econ BSc, Time Series Econometrics (2009)",    
 ];
 
 // Academic Services Data - Replace with your own services
 const academicServices = [
-  "Reviewer: Conference YYYY",
-  "Volunteer: Conference YYYY"
+  "Chair of Organizing Committee: ICEF Conference on Applied Economics 2018-2026",
+  "Search and Hiring Committee: ICEF 2016-2026"
 ];
 
 // Talks Data - Replace with your own talks
@@ -117,5 +120,9 @@ const talks = [
 
 // Honors Data - Replace with your own honors and awards
 const honors = [
-  "Your Award Name, Institution, Month YYYY"
+  "Biannual Russian National Award in Applied Economics, Democratizing Access to Higher Education in Russia, 2020",
+  "Gaidar Award for Young Economists, Assessing the Impact of the Maternity Capital Policy, 2014",
+  "Outstanding Contribution Award, The Effect of Taxation on Informal Employment, 2013",
+  "Solomon Barkin Graduate Award, University of Massachusetts Amherst, 2008",
+  "Fulbright Master Program Fellowship, 2002-2004",
 ];
