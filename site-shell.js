@@ -8,7 +8,7 @@
     { key: 'home', href: 'index.html', label: 'Home' },
     { key: 'publications', href: 'publications.html', label: 'Research' },
     { key: 'projects', href: 'projects.html', label: 'Work in Progress' },
-    { key: 'blogs', href: 'blogs.html', label: 'Blogs' },
+    //{ key: 'blogs', href: 'blogs.html', label: 'Blogs' },
     { key: 'photography', href: 'photography.html', label: 'Photography' },
     { key: 'cv', href: 'cv.html', label: 'CV' }
   ];
