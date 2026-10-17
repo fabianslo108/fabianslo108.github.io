@@ -269,9 +269,12 @@ const researchExperience = [
 // Teaching Data - Replace with your own teaching experience
 const teaching = [
   "ICEF MSc Economics & Finance, Advanced Econometrics (2010-Present)",
-  "ICEF MSc Economics & Finance, Big Data and Machine Learning for Economics and Finance (2019-Present)",  
-  "ICEF BSc, Applied Economics (2014-2018)",
-  "Econ BSc, Labor Economics (2012-2013)",  
+  "ICEF MSc Economics & Finance, Machine Learning and Big Data in Economics and Finance (2019-Present)",  
+  "ICEF BSc, Applied Economics (2016-2018)",
+  "Econ BSc, Labor Economics (2015)",
+  "Joint New Economic School-HSE Liberal Arts Program, Econometrics (2013-2014)",
+  "Econ PhD, Microeconometrics (2010-2012)",
+  "ICEF BSc, Time Series and Panel Data Econometrics (2009)",
   "Econ BSc, Time Series Econometrics (2009)",    
 ];
 

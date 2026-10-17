@@ -1,0 +1,67 @@
+
+\NeedsTeXFormat{LaTeX2e}
+\documentclass[a4paper,11pt,skipsamekey]{curve}
+
+%\documentclass[skipsamekey]{curve}
+\usepackage[margin=1in]{geometry}
+\usepackage[colorlinks=false,urlcolor=black,urlbordercolor={1 1 1}]{hyperref}
+\usepackage{fancyhdr}
+
+%\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[most]{tcolorbox}
+
+\usepackage{amsmath,amssymb}
+\usepackage[russian,english]{babel}
+
+
+\fancypagestyle{plain}{%
+\fancyhf{} % clear all header and footer fields
+\fancyhead[L]{Curriculum Vitae: Fabi\'an Slonimczyk}
+\fancyhead[R]{\today}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}}
+\newcommand{\comments}[1]{}
+\pagestyle{plain}
+
+\titlespace=0pt
+\titlefont{\Large\bfseries}
+\subtitlefont{\large\bfseries}
+
+\rubricfont{\large\bfseries}
+\rubricspace=5pt
+\rubricafterspace=-10pt
+\subrubricfont{\normalsize\itshape}
+\subrubricbeforespace=15pt
+\subrubricspace=0pt
+%\prefix{}
+\title{Fabi\'an Slonimczyk}
+\subtitle{Associate Professor \\ Higher School of Economics, Moscow}
+
+\begin{document}
+\makeatletter\let\mykeyfont\@keyfont\makeatother
+\maketitle
+
+\makerubric{contact}
+\makerubric{experience}
+\makerubric{education}
+\makerubric{fields}
+\makerubric{current_research}
+
+\makerubric{publications}
+%\makerubric{recent_presentations}
+
+
+\makerubric{teaching}
+
+\makerubric{projects}
+
+\makerubric{otherexperience}
+%\makerubric{papers}
+\makerubric{awards}
+
+\makerubric{language}
+
+
+\end{document}
