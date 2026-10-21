@@ -289,14 +289,14 @@ const talks = [
   {
     title: "Good Looks and the Academic Job Market",
     venue: "ICEF Conference on Applied Economics",
-    date: "Oct 16, 2026",
+    date: "October 2026",
     attachments: [
       { text: "Slides", url: "files/presentation_Good_Looks_Slonimczyk_Kimsanbaev_v0.pdf" }
     ],
   },
   {
     title: "Prompt-based Sentiment Extraction",
-    venue: "LSE Conference: AI and the Future of Social Welfare",
+    venue: "AI and the Future of Social Welfare (LSE)",
     date: "June 2026",
     attachments: [
       { text: "Slides", url: "files/presentation_Slonimczyk_AIFSW.pdf" }
@@ -305,18 +305,17 @@ const talks = [
   {
     title: "Beautiful Real Estate: Measuring Product Quality Using Images",
     venue: "ICEF Brown Bag Seminar",
-    date: "April, 2026",
+    date: "April 2026",
     attachments: [
       { text: "Slides", url: "files/presentation_CLIP_Slonimczyk_Karapsin_v0.pdf" }
     ],
   },
   {
     title: "Prompt-based Sentiment Extraction",
-    venue: "TSE Digital Economics Conference",
+    venue: "Digital Conference (TSE)",
     date: "January 2026",
     attachments: null,
-  }
-
+  },
 ];
 
 // Honors Data - Replace with your own honors and awards
