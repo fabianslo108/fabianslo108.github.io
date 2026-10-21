@@ -295,10 +295,12 @@ const talks = [
     ],
   },
   {
-    title: "PLM-based Sentiment Extraction",
+    title: "Prompt-based Sentiment Extraction",
     venue: "LSE Conference: AI and the Future of Social Welfare",
     date: "June 2026",
-    attachments: [],
+    attachments: [
+      { text: "Slides", url: "files/presentation_Slonimczyk_AIFSW.pdf" }
+    ],
   },
   {
     title: "Beautiful Real Estate: Measuring Product Quality Using Images",
@@ -312,7 +314,7 @@ const talks = [
     title: "PLM-based Sentiment Extraction",
     venue: "TSE Digital Economics Conference",
     date: "January 2026",
-    attachments: [],
+    attachments: null,
   }
 
 ];
