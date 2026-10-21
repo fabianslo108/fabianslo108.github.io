@@ -281,7 +281,7 @@ const teaching = [
 // Academic Services Data - Replace with your own services
 const academicServices = [
   "Chair of Organizing Committee: ICEF Conference on Applied Economics 2018-2026",
-  "Search and Hiring Committee: ICEF 2016-2026"
+  "Search and Hiring Committee: ICEF 2016-2026",
 ];
 
 // Talks Data - Replace with your own talks
@@ -292,8 +292,29 @@ const talks = [
     date: "Oct 16, 2026",
     attachments: [
       { text: "Slides", url: "files/presentation_Good_Looks_Slonimczyk_Kimsanbaev_v0.pdf" }
-    ]
+    ],
+  },
+  {
+    title: "PLM-based Sentiment Extraction",
+    venue: "LSE Conference: AI and the Future of Social Welfare",
+    date: "June 2026",
+    attachments: [],
+  },
+  {
+    title: "Beautiful Real Estate: Measuring Product Quality Using Images",
+    venue: "ICEF Brown Bag Seminar",
+    date: "April, 2026",
+    attachments: [
+      { text: "Slides", url: "files/presentation_CLIP_Slonimczyk_Karapsin_v0.pdf" }
+    ],
+  },
+  {
+    title: "PLM-based Sentiment Extraction",
+    venue: "TSE Digital Economics Conference",
+    date: "January 2026",
+    attachments: [],
   }
+
 ];
 
 // Honors Data - Replace with your own honors and awards
