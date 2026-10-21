@@ -255,7 +255,7 @@ function populateTalks() {
       `<a href="${attachment.url}" target="_blank">${attachment.text}</a>`
     ).join(' | ');
 
-    li.innerHTML = `<p>${talk.title}, ${talk.venue}, ${talk.date} [ ${attachmentLinks} ]</p>`;
+    li.innerHTML = `<p>${talk.title}, ${talk.venue}, ${talk.date}<BR>[ ${attachmentLinks} ]</p>`;
     list.appendChild(li);
   });
 }
