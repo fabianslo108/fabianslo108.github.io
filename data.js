@@ -314,7 +314,7 @@ const talks = [
     title: "Prompt-based Sentiment Extraction",
     venue: "Digital Conference (TSE)",
     date: "January 2026",
-    attachments: null,
+    attachments: [],
   },
 ];
 
