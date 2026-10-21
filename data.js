@@ -311,7 +311,7 @@ const talks = [
     ],
   },
   {
-    title: "PLM-based Sentiment Extraction",
+    title: "Prompt-based Sentiment Extraction",
     venue: "TSE Digital Economics Conference",
     date: "January 2026",
     attachments: null,
