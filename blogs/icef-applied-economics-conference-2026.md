@@ -1,4 +1,4 @@
-On October 16, 2026, ICEF at HSE University hosted the **Eighth International Conference on Applied Economics** in Moscow. I helped organize the conference with Shihe Fu of Wuhan University and Maxim Nikitin of ICEF, and presented my research during the program.
+On October 16, 2026, ICEF hosted the **Eighth International Conference on Applied Economics** in Moscow. I helped organize the conference with Shihe Fu of Wuhan University and Maxim Nikitin of ICEF, and presented my research during the program.
 
 The conference brought together researchers from HSE University, the New Economic School, Wuhan University, and Shandong University. Its sessions covered three broad themes: environment, resources and policy; migration, labour and communication; and consumption, behaviour and climate.
 
@@ -20,4 +20,4 @@ Our results suggest that the relationship between attractiveness and employment 
 
 Each presentation was allocated 30 minutes, but questions about methods and data often came up before the talk had ended. That made discussion part of the research process: participants could probe how results were constructed and assess how robust the evidence was. The conversations continued after the academic program, including at the conference dinner.
 
-Organizing the event and presenting gave me a view of the meeting from both sides: helping bring the program together and joining the discussion as a presenter. The full program and conference recap are available on the [ICEF website](https://icef.hse.ru/en/news/1213874187.html).
+Organizing the event and presenting gave me a view of the meeting from both sides: helping bring the program together and joining the discussion as a presenter. The full program and conference recap are available [here](https://icef.hse.ru/en/news/1213874187.html).
