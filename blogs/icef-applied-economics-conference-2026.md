@@ -1,4 +1,4 @@
-On October 16, 2026, ICEF hosted the **Eighth International Conference on Applied Economics** in Moscow. I helped organize the conference with Shihe Fu of Wuhan University and Maxim Nikitin of ICEF, and presented my research during the program.
+On October 16, 2026, ICEF hosted the  **8th International Conference on Applied Economics** in Moscow. I helped organize the conference with Shihe Fu of Wuhan University and Maxim Nikitin of ICEF, and presented my research during the program.
 
 The conference brought together researchers from HSE University, the New Economic School, Wuhan University, and Shandong University. Its sessions covered three broad themes: environment, resources and policy; migration, labour and communication; and consumption, behaviour and climate.
 
