@@ -7,7 +7,7 @@
 const blogPosts = [
   {
     id: "icef-applied-economics-conference-2026",
-    title: "Organizing and Presenting at the Eighth ICEF Applied Economics Conference",
+    title: "Organizing and Presenting at the 8th ICEF Applied Economics Conference",
     date: "2026-10-16",
     author: "Fabian Slonimczyk",
     excerpt: "A recap of the Eighth ICEF International Conference on Applied Economics in Moscow, where I helped organize the meeting and presented research on physical attractiveness in the academic job market.",
@@ -16,7 +16,7 @@ const blogPosts = [
     markdownFile: "blogs/icef-applied-economics-conference-2026.md",
     content: null,      // Will be loaded from the markdown file
     htmlContent: null   // Will be generated from the markdown
-  }
+  },
 ];
 
 // Helper function to get all blog posts (sorted newest first)
