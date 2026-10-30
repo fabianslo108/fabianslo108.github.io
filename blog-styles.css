@@ -103,6 +103,15 @@
   margin-bottom: 12px;
 }
 
+.post-content img {
+  display: block;
+  width: 100%;
+  max-height: 560px;
+  margin: 24px auto 8px;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
 .post-content ul,
 .post-content ol {
   margin-bottom: 12px;

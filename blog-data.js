@@ -6,14 +6,14 @@
 
 const blogPosts = [
   {
-    id: "tba",
-    title: "TBA",
-    date: "2026",
+    id: "icef-applied-economics-conference-2026",
+    title: "Organizing and Presenting at the Eighth ICEF Applied Economics Conference",
+    date: "2026-10-16",
     author: "Fabian Slonimczyk",
-    excerpt: "Soon...",
-    tags: ["Topic", "Sample"],
+    excerpt: "A recap of the Eighth ICEF International Conference on Applied Economics in Moscow, where I helped organize the meeting and presented research on physical attractiveness in the academic job market.",
+    tags: ["Conference", "Applied Economics", "Research"],
     readTime: 3,
-    markdownFile: "blogs/TBA.md",
+    markdownFile: "blogs/icef-applied-economics-conference-2026.md",
     content: null,      // Will be loaded from the markdown file
     htmlContent: null   // Will be generated from the markdown
   }
