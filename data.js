@@ -240,7 +240,7 @@ const projects = [
   {
     title: "Beauty and Academic Job Market",
     description: "We develop a new method to measure physical attractiveness using deep vision models. We show that good looks are strongly associated with the length and sentiment of reference letters.",
-    isSelected: true,
+    isSelected: false,
     demoPath: "photos/project-demo/beauty_job_market.png"
   },
   {
@@ -254,6 +254,12 @@ const projects = [
     description: "We conduct a correspondence study in the Moscow housing market to examine differential treatment of families with children.",
     isSelected: true,
     demoPath: "photos/project-demo/diff_treatment.png"
+  },
+  {
+    title: "Manager Sentiment and Uncertainty: a PLM-prompting Approach",
+    description: "We use a pre-trained language model to elicit sentiment and uncertainty from regulatory text (10Ks and 10Qs).",
+    isSelected: true,
+    demoPath: ""
   },  
 ];
 
