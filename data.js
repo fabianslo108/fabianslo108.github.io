@@ -3,6 +3,26 @@
 // Use isSelected: true to feature it on the homepage and CV.
 const publications = [
   {
+    title: "Good Looks and the Academic Job Market: Measuring Attractiveness with Vision Embeddings",
+    authors: "<b>Fabian Slonimczyk</b>, Shergazy Kimsanbaev",
+    venue: "arxiv, 2611.10447 (2026)",
+    links: [
+      { text: "Paper", url: "https://arxiv.org/abs/2611.10447" },
+      //{ text: "Code", url: "https://github.com/Arvid-pku/Godel_Agent" }
+    ],
+    abstract: "We introduce a new approach to measure physical attractiveness---the relative vision embedding (RVE) score. The score maps a face to a vector in the embedding space of a pre-trained deep vision model and measures its proximity to a reference set of celebrity faces. It requires no additional training or fine-tuning, no hand-crafted features, and no human raters; it is continuous, inexpensive, scalable, and fully reproducible. Using publicly available photographs with human attractiveness ratings, we show that the RVE scores correlate strongly with human ratings and that rankings are consistent across several off-the-shelf vision models. We apply the measure to administrative hiring data from a research-oriented economics department, complemented by hand-collected photographs of the job applicants. Higher RVE scores are associated with better job-market outcomes, though the association is not robust across all specifications. In contrast, the association with reference-letter length and sentiment is strong and robust: candidates with higher RVE scores receive longer letters written in more favorable language, and this sentiment gradient is steeper for female candidates. The pattern is consistent with appearance affecting academic hiring in part through letters of recommendation.",
+    citation: `<pre><code>@techreport{slonimczyk-kimsanbaev-2026-attractiveness,
+    title  = {Good Looks and the Academic Job Market: Measuring Attractiveness with Vision Embeddings},
+    author = {Fabian Slonimczyk and Shergazy Kimsanbaev},
+    year   = {2026},
+    type   = {arxiv},
+    number = {2611.10447},
+    url    = {https://arxiv.org/abs/2611.10447}
+}</code></pre>`,
+    isNew: true,
+    isPreprint: true,
+    isSelected: true,
+  },  {
     title: "Measuring Product Quality Using Images: The CLIP Q-Score and an Application to Real Estate",
     authors: "<b>Fabian Slonimczyk</b>, Danila Karapsin",
     venue: "arxiv, 2608.01544 (2026)",
